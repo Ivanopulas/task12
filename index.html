@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дмитрий Алексеев</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container header__container">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Услуги</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Портфолио</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Стоимость</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__contacts">
+          <li class="header__contacts-item">
+            <a href="tel:+74999955577" class="header__contacts-link"
+              >+7 (499) 995-55-77</a
+            >
+          </li>
+          <li class="header__contacts-item">
+            <button type="button" class="header__contacts-btn open-popup">
+              Заказать звонок
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="person">
+        <div class="container person__container">
+          <h2 class="visually-hidden">Header for validator</h2>
+          <article class="person__info">
+            <h2 class="person__header">Дмитрий Алексеев</h2>
+            <p class="person__description">
+              Frontend-разработчик и веб-верстальщик
+            </p>
+            <button type="button" class="person__btn open-popup">
+              Узнать больше
+            </button>
+          </article>
+          <div class="person__picture-box">
+            <img src="./img/man.png" class="person__picture" alt="Картинка" />
+          </div>
+        </div>
+      </section>
+
+      <section class="actions">
+        <div class="container actions__container">
+          <h2 class="actions__header">Что я делаю</h2>
+          <ul class="actions__list">
+            <li class="actions__item">
+              <img class="actions__item-img" src="./img/1.png" alt="картинка" />
+              <p class="actions__item-text">
+                Вёрстка лендинг-страниц и сайтов любой сложности
+              </p>
+            </li>
+            <li class="actions__item">
+              <img class="actions__item-img" src="./img/2.png" alt="картинка" />
+              <p class="actions__item-text">
+                Адаптивная вёрстка под все браузеры и устройства
+              </p>
+            </li>
+            <li class="actions__item">
+              <img class="actions__item-img" src="./img/3.png" alt="картинка" />
+              <p class="actions__item-text">
+                Frontend-разработка и программирование
+              </p>
+            </li>
+            <li class="actions__item">
+              <img class="actions__item-img" src="./img/4.png" alt="картинка" />
+              <p class="actions__item-text">
+                Исправление и доработка существующей верстки
+              </p>
+            </li>
+          </ul>
+          <button class="actions__btn open-popup" type="button">
+            Узнать стоимость
+          </button>
+        </div>
+      </section>
+
+      <section class="examples">
+        <div class="container examples__container">
+          <h2 class="examples__heading">Примеры работ</h2>
+          <ul class="examles__list">
+            <li class="examples__item">
+              <img src="./img/e1.png" alt="" class="examples__img" />
+              <a href="#" class="examples__link"
+                >Сайт психолога Веры Антоновой</a
+              >
+            </li>
+            <li class="examples__item">
+              <img src="./img/e2.png" alt="" class="examples__img" />
+              <a href="#" class="examples__link"
+                >Сайт психолога Веры Антоновой</a
+              >
+            </li>
+            <li class="examples__item">
+              <img src="./img/e3.png" alt="" class="examples__img" />
+              <a href="#" class="examples__link"
+                >Сайт психолога Веры Антоновой</a
+              >
+            </li>
+          </ul>
+          <button class="examples__btn open-popup">Заказать проект</button>
+        </div>
+      </section>
+
+      <section class="logo">
+        <div class="container logo__container">
+          <h2 class="logo__heading">
+            Адаптивная вёрстка под все устройства и браузеры <br />от 1000 ₽
+            всего за 4 часа. *
+          </h2>
+          <p class="logo__text">
+            * Срок и стоимость могут отличаться от заявленных и рассчитываются
+            индивидуально, в зависимости от сложности задач.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer__container">
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Услуги</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Портфолио</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Стоимость</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__contacts">
+          <a href="mailto:dmitry@alekseev.com" class="footer__email-link"
+            >dmitry@alekseev.com</a
+          >
+          <a href="tel:+74999957755" class="footer__tel-link"
+            >+7 (499) 995 77 55</a
+          >
+        </div>
+        <div class="footer__social">
+          <button type="button" class="footer__social-btn open-popup">
+            Заказать звонок
+          </button>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  class="footer__social-img"
+                  src="./img/fb.png"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  class="footer__social-img"
+                  src="./img/vk.png"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  class="footer__social-img"
+                  src="./img/you.png"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  class="footer__social-img"
+                  src="./img/telegram.png"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  class="footer__social-img"
+                  src="./img/inst.png"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup-blackout visually-hidden"></div>
+    <div class="popup-modal visually-hidden">
+      <div class="popup-modal__content">
+        <form action="#" method="post" class="popup-form">
+          <label for="name">
+            <input
+              class="popup__input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Введите Ваше имя"
+            />
+          </label>
+          <label for="email">
+            <input
+              class="popup__input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Введите Ваш email"
+            />
+          </label>
+          <button class="popup__btn" type="button">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
